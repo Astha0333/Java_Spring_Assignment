@@ -1,0 +1,16 @@
+http://localhost:8080/storeurl/www.google.com
+http://localhost:8080/storeurl/www.abc.com
+
+http://localhost:8080/get/www.google.com -> 2 times
+http://localhost:8080/get/www.abc.com -> 3 times
+http://localhost:8080/get/www.google.com -> 2 time
+http://localhost:8080/get/www.gmail.com -> invalid message
+
+
+http://localhost:8080/count/www.google.com -> 4
+http://localhost:8080/count/www.abc.com -> 3
+http://localhost:8080/count/www.gmail.com -> 0
+
+
+http://localhost:8080/list
+
